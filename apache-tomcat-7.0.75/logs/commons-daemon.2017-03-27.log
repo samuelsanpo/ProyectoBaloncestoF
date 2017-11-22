@@ -1,0 +1,35 @@
+[2017-03-27 08:20:37] [info]  [ 4532] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2017-03-27 08:20:37] [info]  [ 4532] Service Tomcat7 name Apache Tomcat 7.0 Tomcat7
+[2017-03-27 08:20:37] [error] [ 4532] El servicio especificado ya existe.
+[2017-03-27 08:20:37] [error] [ 4532] Failed installing 'Tomcat7' service
+[2017-03-27 08:20:37] [error] [ 4532] El servicio especificado ya existe.
+[2017-03-27 08:20:38] [error] [ 4532] Commons Daemon procrun failed with exit value: 8 (Failed to install service)
+[2017-03-27 08:20:38] [error] [ 4532] El servicio especificado ya existe.
+[2017-03-27 08:22:01] [info]  [ 5264] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2017-03-27 08:22:01] [info]  [ 5264] Service Tomcat7 name Apache Tomcat 7.0 Tomcat7
+[2017-03-27 08:22:01] [error] [ 5264] El servicio especificado ya existe.
+[2017-03-27 08:22:01] [error] [ 5264] Failed installing 'Tomcat7' service
+[2017-03-27 08:22:01] [error] [ 5264] El servicio especificado ya existe.
+[2017-03-27 08:22:01] [error] [ 5264] Commons Daemon procrun failed with exit value: 8 (Failed to install service)
+[2017-03-27 08:22:02] [error] [ 5264] El servicio especificado ya existe.
+[2017-03-27 08:30:59] [info]  [ 7644] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2017-03-27 08:30:59] [info]  [ 7644] Service Tomcat7 name Apache Tomcat 7.0 Tomcat7
+[2017-03-27 08:30:59] [error] [ 7644] El servicio especificado ya existe.
+[2017-03-27 08:30:59] [error] [ 7644] Failed installing 'Tomcat7' service
+[2017-03-27 08:30:59] [error] [ 7644] El servicio especificado ya existe.
+[2017-03-27 08:30:59] [error] [ 7644] Commons Daemon procrun failed with exit value: 8 (Failed to install service)
+[2017-03-27 08:30:59] [error] [ 7644] El servicio especificado ya existe.
+[2017-03-27 08:31:52] [info]  [ 7780] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2017-03-27 08:31:52] [info]  [ 7780] Service Tomcat7 name Apache Tomcat 7.0 Tomcat7
+[2017-03-27 08:31:52] [error] [ 7780] El servicio especificado ya existe.
+[2017-03-27 08:31:52] [error] [ 7780] Failed installing 'Tomcat7' service
+[2017-03-27 08:31:52] [error] [ 7780] El servicio especificado ya existe.
+[2017-03-27 08:31:52] [error] [ 7780] Commons Daemon procrun failed with exit value: 8 (Failed to install service)
+[2017-03-27 08:31:52] [error] [ 7780] El servicio especificado ya existe.
+[2017-03-27 08:32:59] [info]  [ 7972] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2017-03-27 08:32:59] [info]  [ 7972] Service Tomcat7 name Apache Tomcat 7.0 Tomcat7
+[2017-03-27 08:32:59] [error] [ 7972] El servicio especificado ya existe.
+[2017-03-27 08:32:59] [error] [ 7972] Failed installing 'Tomcat7' service
+[2017-03-27 08:32:59] [error] [ 7972] El servicio especificado ya existe.
+[2017-03-27 08:32:59] [error] [ 7972] Commons Daemon procrun failed with exit value: 8 (Failed to install service)
+[2017-03-27 08:32:59] [error] [ 7972] El servicio especificado ya existe.

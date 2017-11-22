@@ -1,0 +1,171 @@
+may 15, 2017 9:10:52 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: ContextListener: contextInitialized()
+may 15, 2017 9:10:52 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: SessionListener: contextInitialized()
+may 15, 2017 9:10:52 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@d4379a')
+may 15, 2017 9:26:46 AM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Excepción enviando evento inicializado de contexto a instancia de escuchador de clase com.sun.faces.config.ConfigureListener
+java.lang.RuntimeException: com.sun.faces.config.ConfigurationException: java.util.concurrent.ExecutionException: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:280)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5116)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5634)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1312)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:383)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:615)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1087)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.sun.faces.config.ConfigurationException: java.util.concurrent.ExecutionException: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at com.sun.faces.config.ConfigManager.getConfigDocuments(ConfigManager.java:761)
+	at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:349)
+	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:221)
+	... 30 more
+Caused by: java.util.concurrent.ExecutionException: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at com.sun.faces.config.ConfigManager.getConfigDocuments(ConfigManager.java:759)
+	... 32 more
+Caused by: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at com.sun.faces.config.ConfigManager$ParseTask.call(ConfigManager.java:1012)
+	at com.sun.faces.config.ConfigManager$ParseTask.call(ConfigManager.java:954)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.sun.faces.config.ConfigManager.getConfigDocuments(ConfigManager.java:747)
+	... 32 more
+Caused by: java.lang.NullPointerException
+	at com.sun.faces.config.ConfigManager$ParseTask.getDocument(ConfigManager.java:1172)
+	at com.sun.faces.config.ConfigManager$ParseTask.call(ConfigManager.java:1003)
+	... 35 more
+
+may 15, 2017 9:26:53 AM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Excepción enviando evento inicializado de contexto a instancia de escuchador de clase com.sun.faces.config.ConfigureListener
+java.lang.RuntimeException: com.sun.faces.config.ConfigurationException: java.util.concurrent.ExecutionException: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:280)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5116)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5634)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1312)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:383)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:615)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1087)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.sun.faces.config.ConfigurationException: java.util.concurrent.ExecutionException: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at com.sun.faces.config.ConfigManager.getConfigDocuments(ConfigManager.java:761)
+	at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:349)
+	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:221)
+	... 30 more
+Caused by: java.util.concurrent.ExecutionException: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at com.sun.faces.config.ConfigManager.getConfigDocuments(ConfigManager.java:759)
+	... 32 more
+Caused by: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at com.sun.faces.config.ConfigManager$ParseTask.call(ConfigManager.java:1012)
+	at com.sun.faces.config.ConfigManager$ParseTask.call(ConfigManager.java:954)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.sun.faces.config.ConfigManager.getConfigDocuments(ConfigManager.java:747)
+	... 32 more
+Caused by: java.lang.NullPointerException
+	at com.sun.faces.config.ConfigManager$ParseTask.getDocument(ConfigManager.java:1172)
+	at com.sun.faces.config.ConfigManager$ParseTask.call(ConfigManager.java:1003)
+	... 35 more
+
+may 15, 2017 9:27:28 AM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Excepción enviando evento inicializado de contexto a instancia de escuchador de clase com.sun.faces.config.ConfigureListener
+java.lang.RuntimeException: com.sun.faces.config.ConfigurationException: java.util.concurrent.ExecutionException: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:280)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5116)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5634)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1312)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:383)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:615)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1087)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.sun.faces.config.ConfigurationException: java.util.concurrent.ExecutionException: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at com.sun.faces.config.ConfigManager.getConfigDocuments(ConfigManager.java:761)
+	at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:349)
+	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:221)
+	... 30 more
+Caused by: java.util.concurrent.ExecutionException: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at com.sun.faces.config.ConfigManager.getConfigDocuments(ConfigManager.java:759)
+	... 32 more
+Caused by: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at com.sun.faces.config.ConfigManager$ParseTask.call(ConfigManager.java:1012)
+	at com.sun.faces.config.ConfigManager$ParseTask.call(ConfigManager.java:954)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.sun.faces.config.ConfigManager.getConfigDocuments(ConfigManager.java:747)
+	... 32 more
+Caused by: java.lang.NullPointerException
+	at com.sun.faces.config.ConfigManager$ParseTask.getDocument(ConfigManager.java:1172)
+	at com.sun.faces.config.ConfigManager$ParseTask.call(ConfigManager.java:1003)
+	... 35 more
+

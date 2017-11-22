@@ -1,0 +1,92 @@
+nov 22, 2017 12:34:18 AM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Excepción enviando evento inicializado de contexto a instancia de escuchador de clase com.sun.faces.config.ConfigureListener
+java.lang.RuntimeException: com.sun.faces.config.ConfigurationException: java.util.concurrent.ExecutionException: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:280)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5116)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5634)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:679)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1966)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.sun.faces.config.ConfigurationException: java.util.concurrent.ExecutionException: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at com.sun.faces.config.ConfigManager.getConfigDocuments(ConfigManager.java:761)
+	at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:349)
+	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:221)
+	... 13 more
+Caused by: java.util.concurrent.ExecutionException: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at com.sun.faces.config.ConfigManager.getConfigDocuments(ConfigManager.java:759)
+	... 15 more
+Caused by: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at com.sun.faces.config.ConfigManager$ParseTask.call(ConfigManager.java:1012)
+	at com.sun.faces.config.ConfigManager$ParseTask.call(ConfigManager.java:954)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.sun.faces.config.ConfigManager.getConfigDocuments(ConfigManager.java:747)
+	... 15 more
+Caused by: java.lang.NullPointerException
+	at com.sun.faces.config.ConfigManager$ParseTask.getDocument(ConfigManager.java:1172)
+	at com.sun.faces.config.ConfigManager$ParseTask.call(ConfigManager.java:1003)
+	... 18 more
+
+nov 22, 2017 12:34:22 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: ContextListener: contextInitialized()
+nov 22, 2017 12:34:22 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: SessionListener: contextInitialized()
+nov 22, 2017 12:34:22 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@562372')
+nov 22, 2017 1:14:28 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: SessionListener: contextDestroyed()
+nov 22, 2017 1:14:28 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: ContextListener: contextDestroyed()
+nov 22, 2017 12:02:00 PM org.apache.catalina.core.StandardContext listenerStart
+GRAVE: Excepción enviando evento inicializado de contexto a instancia de escuchador de clase com.sun.faces.config.ConfigureListener
+java.lang.RuntimeException: com.sun.faces.config.ConfigurationException: java.util.concurrent.ExecutionException: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:280)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5116)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5634)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:679)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1966)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.sun.faces.config.ConfigurationException: java.util.concurrent.ExecutionException: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at com.sun.faces.config.ConfigManager.getConfigDocuments(ConfigManager.java:761)
+	at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:349)
+	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:221)
+	... 13 more
+Caused by: java.util.concurrent.ExecutionException: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at com.sun.faces.config.ConfigManager.getConfigDocuments(ConfigManager.java:759)
+	... 15 more
+Caused by: com.sun.faces.config.ConfigurationException: Unable to parse document 'jndi:/localhost/Web2/WEB-INF/faces-config.xml': null
+	at com.sun.faces.config.ConfigManager$ParseTask.call(ConfigManager.java:1012)
+	at com.sun.faces.config.ConfigManager$ParseTask.call(ConfigManager.java:954)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.sun.faces.config.ConfigManager.getConfigDocuments(ConfigManager.java:747)
+	... 15 more
+Caused by: java.lang.NullPointerException
+	at com.sun.faces.config.ConfigManager$ParseTask.getDocument(ConfigManager.java:1172)
+	at com.sun.faces.config.ConfigManager$ParseTask.call(ConfigManager.java:1003)
+	... 18 more
+
+nov 22, 2017 12:02:03 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: ContextListener: contextInitialized()
+nov 22, 2017 12:02:03 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: SessionListener: contextInitialized()
+nov 22, 2017 12:02:03 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1d867c8')
