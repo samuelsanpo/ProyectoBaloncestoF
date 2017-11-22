@@ -24,8 +24,8 @@
 	<div id="menu">
 		<ul>
 			<li class="current_page_item"><a href="#">Inicio</a></li>
-			<li><a href="indexTorneo.html">Torneos</a></li>
-			<li><a href="indexEquipo.html">Equipos</a></li>
+			<li><a href="indexTorneo.jsp">Torneos</a></li>
+			<li><a href="indexEquipo.jsp">Equipos</a></li>
 			<li><a href="#">Jugador</a></li>
 			<li><a href="#"></a></li>
 		</ul>
