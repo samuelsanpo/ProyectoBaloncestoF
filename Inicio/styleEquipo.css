@@ -9,6 +9,10 @@ body {
 	color: #7F7F81;
 }
 
+input, option {
+	color: #7F7F81
+}
+
 h1, h2, h3 {
 	margin: 0;
 	padding: 0;
@@ -35,6 +39,27 @@ p, ul, ol {
 }
 
 ul, ol {
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background-color: #6A5ACD;
+    color: white;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
 
 .button {
