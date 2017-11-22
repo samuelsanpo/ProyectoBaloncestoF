@@ -43,7 +43,7 @@
     <br>
     
     
-    
+    <div id="all">
     
     <div id="agregarT">
 <h3>Agregar un torneo</h3>
@@ -82,7 +82,63 @@
      <input type="text" id="searchterm" placeholder="Busca un jugador " />
      <button type="button" id="search"> Buscar </button>
      </div>
-            
+           
+
+<br>
+<br>
+<br>
+<br>
+
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Lugar</th>
+    <th>Fixture</th>
+    <th>Categoria</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+    <td>Italy</td>
+  </tr>
+</table>
+
+
+
+
+    </div>
+
 
 <script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 

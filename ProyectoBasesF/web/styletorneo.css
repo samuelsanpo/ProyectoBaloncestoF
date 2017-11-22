@@ -173,11 +173,7 @@ img.aligncenter {
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
 
-* {
-    margin:0;
-    padding:0;
-    font:12pt Arial;
-}
+
 
 body {
   background-color:white;
@@ -255,3 +251,25 @@ input[type=submit]:hover {
 }
 
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #1741B0;
+    text-align: left;
+    color:white;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #1741B0;
+}
+
+
+#all{
+    background-color: white;
+    
+}
