@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 
 <html>
 <head>
@@ -25,8 +25,8 @@
 	<!-- end #header -->
 	<div id="menu">
 		<ul>
-			<li><a href="index.html">Inicio</a></li>
-			<li><a href="indexTorneo.html">Torneos</a></li>
+			<li><a href="index.jsp">Inicio</a></li>
+			<li><a href="indexTorneo.jsp">Torneos</a></li>
 			<li class="current_page_item"><a href="#">Equipos</a></li>
 			<li><a href="#">Jugadores</a></li>
 

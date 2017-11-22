@@ -6,8 +6,9 @@ body {
 	background: #FFFFFF url(images/img01.jpg) repeat-x left top;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
-	color: #000000;
+	color: #7F7F81;
 }
+
 
 h1, h2, h3 {
 	margin: 0;
@@ -22,6 +23,7 @@ h1 {
 
 h2 {
 	font-size: 2.4em;
+        color:#000080;
 }
 
 h3 {
@@ -38,7 +40,8 @@ ul, ol {
 
 a {
 	text-decoration: none;
-	color: #000000;
+	color: #3ABADF;
+        
 }
 
 a:hover {
@@ -81,7 +84,7 @@ img.aligncenter {
 	height: 60px;
 	margin: 0;
 	padding: 160px 0px 0px 0px;
-	color: white;
+	color: #FFFFFF;
 }
 
 #logo h1, #logo p {
@@ -93,8 +96,7 @@ img.aligncenter {
 	float: left;
 	padding-left: 30px;
 	letter-spacing: -1px;
-	
-	text-shadow: black -1px 1px 2px;
+	text-shadow: #728927 -1px 1px 2px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 64px;
 }
@@ -102,7 +104,7 @@ img.aligncenter {
 #logo p {
 	margin: 0;
 	padding: 30px 0 0 34px;
-	text-shadow: #FFFFFF -1px 1px 2px;
+	text-shadow: #728927 -1px 1px 2px;
 	font: normal 18px Georgia, "Times New Roman", Times, serif;
 	font-style: italic;
 }
@@ -111,7 +113,7 @@ img.aligncenter {
 	border: none;
 	background: none;
 	text-decoration: none;
-	color: white;
+	color: #FFFFFF;
 }
 
 
@@ -233,7 +235,7 @@ input[type=text], select {
 
 input[type=submit] {
     width: 100%;
-    background-color: black;
+    background-color: #1741B0;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -243,19 +245,13 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #2F7AB0;
 }
 
-div {
+#agregarT {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
 }
 
 
-#agregarT{
-    
-    background-color: white;
-    margin: 8px 0 0 10px;
-    
-}
