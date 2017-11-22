@@ -1,12 +1,12 @@
 <!DOCTYPE html5>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="">
 <head>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>BallonBases</title>
-<link href="styleEquipo.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
 <div id="wrapper">
@@ -16,20 +16,18 @@
 		</div>
 		<div id="search">
 			<form method="get" action="">
-				<fieldset>
-				<input type="submit" id="search-submit" value="GO" />
-				</fieldset>
+				
 			</form>
 		</div>
 	</div>
 	<!-- end #header -->
 	<div id="menu">
 		<ul>
-			<li><a href="index.html">Inicio</a></li>
+			<li class="current_page_item"><a href="#">Inicio</a></li>
 			<li><a href="indexTorneo.html">Torneos</a></li>
-			<li class="current_page_item"><a href="#">Equipos</a></li>
-			<li><a href="#">Jugadores</a></li>
-			
+			<li><a href="indexEquipo.html">Equipos</a></li>
+			<li><a href="#">Jugador</a></li>
+			<li><a href="#"></a></li>
 		</ul>
 	</div>
 	<!-- end #menu -->
@@ -38,112 +36,71 @@
 			<div id="page-bgbtm">
 				<div id="content">
 					<div class="post">
-						<h2 class="title"><a href="#">Creador de equipos</a></h2>
+						<h2 class="title"><a href="#">Bienvendio a BallonBases </a></h2>
+						<p class="meta">Ultima Publicacion <a href="#"></a> el 23 Noviembre, 2017
+							&nbsp;&bull;&nbsp; <a href="#" class="comments">Comentarios (0)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Article</a></p>
 						<div class="entry">							
-							<p>En esta pestaña podrás crear un equipo, al cual posteriormente podrás agregar los jugadores correspondientes.
-
-
-							Disfruta, juega y crece...</p>
+							<p>El baloncesto o básquetbol proviene del Inglés basket (canasta) y ball (pelota). Es un deporte de equipo, en donde dos conjuntos de cinco jugadores cada uno, intentan introducir un balón, el mayor numero de veces posible en una cesta suspendida por encima de sus cabezas y situada en la parte de la cancha del equipo contrario. El básquet es uno de los deportes mas populares, con mayor número de espectadores y participantes en el mundo.</p>
 						</div>
 					</div>
 					<div class="post">
-						<h2 class="title"><a href="#"> Crear un equipo nuevo </a></h2>
-					
+						<h2 class="title"><a href="indexTorneo.html">Sudamericano. </a></h2>
+						<p class="meta">Ultima Publicacion <a href="#"></a> el 23 Noviembre, 2017
+							&nbsp;&bull;&nbsp; <a href="#" class="comments">Comentarios (11)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Srticulo</a></p>
 						<div class="entry">
-						<p><class="alignleft border" />             
-							<form action=Hola>
- 						Nombre del equipo:<br>
-  						<input type="text" name="equiponombre" value="Ingrese nombre">
-  						<br>
-  						Entrenador:<br>
-  						<input type="text" name="entrenadornombre" value="Ingrese entrenador">
-  						<br>
-  						Color:<br>
-  						<input type="text" name="colorequipo" value="Ejemplo: Rojo">
-  						<br>
-  						Torneo:<br>
-  						<select name="Torneo">
-    						<option value="volvo">Sudamericano</option>
-   							<option value="saab">Copa Promaster</option>
-    						<option value="fiat">Liga BBA</option>
-    						<option value="audi">Liga Warrior</option>
-  						</select><br><br>
-  						<button class="button">Crear equipo</button>
-  						</form> </p>
+							<p><img src="images/img06.png" width="143" height="143" alt="" class="alignleft border" />La liga Suramericana nace en Buenos Aires Argentina, dándose a conocer por la participación de equipos provenientes de todo Suramérica. Este año se celebra el bicentenario de la Liga Sudamericana, que a sus veinte años ha logrado alto reconocimiento por grandes entidades deprotivas como la NBA. Teniendo como sede principal el país de Colombia. </p>
 						</div>
 					</div>
 					<div class="post">
-
-						<h2 class="title"><a href="#">Equipos inscritos</a></h2>
+						<h2 class="title"><a href="indexTorneo.html">Copa Promaster. </a></h2>
+						<p class="meta">Ultima Publicacion <a href="#"></a> el 23 Noviembre, 2017
+							&nbsp;&bull;&nbsp; <a href="#" class="comments">Comentarios (5)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Articulo</a></p>
 						<div class="entry">
-							<p><class="alignleft border" /><table style="width:100%">
-  <tr>
-    <th>Nombre Equipo</th>
-    <th>Nombre Entrenador</th> 
-    <th>Color</th>
-    <th>Torneo</th>
-  </tr>
-  <tr>
-    <td>Lakers</td>
-    <td>John Smith</td>
-    <td>Verde</td>
-    <td>Liga BBA</td>
-  </tr>
-  <tr>
-    <td>Wolfes</td>
-    <td>Jackson Marinez</td>
-    <td>Rojo</td>
-    <td>Liga BBA</td>
-  </tr>
-  <tr>
-    <td>Real Bañil</td>
-    <td>Doe Miths</td>
-    <td>Azul</td>
-    <td>Liga Warrior</td>
-  </tr>
-</table></p>
+							<p><img src="images/img05.jpg" width="143" height="143" alt="" class="alignleft border" />Una de las Copas más reconocidas a nivel mundial, destacandose por sus grandes jugadores y sus grandes habilidades para el baloncesto, desarrollandose con éxito en el país de Estados Unidos. Este año se celebra su quinceava liga.</p>
 						</div>
-					</div>
+						</div>
+					<div class="post">
+						<h2 class="title"><a href="indexTorneo.html">Liga BBA. </a></h2>
+						<p class="meta">Ultima Publicacion <a href="#"></a> el 23 Noviembre, 2017
+							&nbsp;&bull;&nbsp; <a href="#" class="comments">Comentarios (8)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Articulo</a></p>
+						<div class="entry">
+							<p><img src="images/img08.jpg" width="143" height="143" alt="" class="alignleft border" />La BBA fue la máxima categoría del baloncesto de Bolivia y se convirtió en sucesora de la Copa Simón Bolívar, primer Torneo Nacional Boliviano jugado desde 1960 a 1976. Esta año se celebra el cuaternario. </p>
+						</div>
+						</div>
+					<div class="post">
+						<h2 class="title"><a href="indexTorneo.html">Liga Warrior. </a></h2>
+						<p class="meta">Ultima Publicacion <a href="#"></a> el 23 Noviembre, 2017
+							&nbsp;&bull;&nbsp; <a href="#" class="comments">Comentarios (21)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Articulo</a></p>
+						<div class="entry">
+							<p><img src="images/Warrior1.png" width="143" height="143" alt="" class="alignleft border" />La liga Warrior es una de las mas importantes a nivel mundial, por la gran participacion de equipos de gran categoria mundial. En esta oportunidad se celebra su tercera liga consecutiva. </p>
+						</div>
+						</div>
 					<div style="clear: both;">&nbsp;</div>
 				</div>
 				<!-- end #content -->
 				<div id="sidebar">
 					<ul>
-						
 						<li>
-							<h2>Mejores equipos</h2>
-
+							<h2>MVP</h2>
+							<p><img src="images/mvp.jpg" width="250" height="350" alt="" class="alignleft border" / ></p>
+							<p>Hola. </p>
+							<p></p>
+							
+						</li>
+						<li>
+							<h2>Mejor Equipo</h2>
 							<ul>
-
-								<li></li>
-								<li></li>
-								<li>Equipo #1</li>
-								<li>Equipo #2</li>
-								<li>Equipo #3</li>
-								<li>Equipo #4</li>
-								<li>Equipo #5</li>
+							<p><img src="images/Equipo1.jpg" width="300" height="250" alt="" class="alignleft border" / ></p>
+							<p>Hola. </p>
+							<p></p>
 							</ul>
 						</li>
 						<li>
-							<h2>Blogroll</h2>
+							<h2>Maximo Anotador</h2>
 							<ul>
-								<li><a href="#">Aliquam libero</a></li>
-								<li><a href="#">Consectetuer adipiscing elit</a></li>
-								<li><a href="#">Metus aliquam pellentesque</a></li>
-								<li><a href="#">Suspendisse iaculis mauris</a></li>
-								<li><a href="#">Urnanet non molestie semper</a></li>
-								<li><a href="#">Proin gravida orci porttitor</a></li>
-							</ul>
-						</li>
-						<li>
-							<h2>Archives</h2>
-							<ul>
-								<li><a href="#">Aliquam libero</a></li>
-								<li><a href="#">Consectetuer adipiscing elit</a></li>
-								<li><a href="#">Metus aliquam pellentesque</a></li>
-								<li><a href="#">Suspendisse iaculis mauris</a></li>
-								<li><a href="#">Urnanet non molestie semper</a></li>
-								<li><a href="#">Proin gravida orci porttitor</a></li>
+							<p><img src="images/Goleador1.png" width="300" height="250" alt="" class="alignleft border" / ></p>
+							<p>Hola. </p>
+								
 							</ul>
 						</li>
 					</ul>
@@ -156,7 +113,7 @@
 	<!-- end #page -->
 </div>
 	<div id="footer">
-		
+		<p><a></a></p>
 	</div>
 <!-- end #footer -->
 </body>
