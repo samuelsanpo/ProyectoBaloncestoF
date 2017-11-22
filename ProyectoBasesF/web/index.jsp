@@ -37,6 +37,74 @@
      <input type="text" id="searchterm" placeholder="Busca un jugador " />
      <button type="button" id="search"> Buscar </button>
      </div>
+            
+            
+<html>
+
+<body>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div id="agregarT">
+<h3>Agregar un torneo</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Nombre torneo</label>
+    <input type="text" id="name" name="name" >
+
+    <label for="lname">Lugar </label>
+    <input type="text" id="lugar" name="lugar" >
+
+    <label for="ficture">Fixture</label>
+    <select id="fixture" name="fxcture">
+      <option value="Todos contra todos">Todos contra todos</option>
+      <option value="Elimincacion directa">Eliminación directa</option>
+    </select>
+    
+    <label for="ficture">Categoria</label>
+    <select id="Categoria" name="Categoria">
+      <option value="Masculino 20años">Masculino 20años</option>
+      <option value="Femenino 20años">Femenino 20años</option>
+      <option value="Masculino 15años">Masculino 15años</option>
+    </select>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+ </div>
+
+
 
 <script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 
