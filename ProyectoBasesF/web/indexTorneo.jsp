@@ -32,6 +32,14 @@
 			<li><a href="#">Jugador</a></li>
 			<li><a href="#"></a></li>
 		</ul>
+            
+            
+          
+            
+            
+            
+            
+            
 
      <div class="field" id="searchform">
      <input type="text" id="searchterm" placeholder="Busca un jugador " />
@@ -39,41 +47,12 @@
      </div>
             
             
+            
+            
+            
 <html>
 
-<body>
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <body>
     
     
     <div id="agregarT">

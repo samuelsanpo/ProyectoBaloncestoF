@@ -1,11 +1,11 @@
-<!DOCTYPE html5>
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>BallonBases</title>
+<title>Equipos</title>
 <link href="styleEquipo.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
@@ -29,7 +29,7 @@
 			<li><a href="indexTorneo.html">Torneos</a></li>
 			<li class="current_page_item"><a href="#">Equipos</a></li>
 			<li><a href="#">Jugadores</a></li>
-			
+
 		</ul>
 	</div>
 	<!-- end #menu -->
@@ -40,9 +40,9 @@
 					<div class="post">
 						<h2 class="title"><a href="#">Creador de equipos</a></h2>
 						<div class="entry">							
-							<p>En esta pestaña podrás crear un equipo, al cual posteriormente podrás agregar los jugadores correspondientes.
+							<p>En esta pestaña podrás observar a los equipos participantes en todos los torneos registrados, además tendrás la oportunidad de observar a los mejores equipos teniendo en cuenta los partidos ganados y menor cantidad de faltas. Tambien podrás crear un equipo, al cual posteriormente podrás agregar los jugadores correspondientes.
 
-
+								<br>
 							Disfruta, juega y crece...</p>
 						</div>
 					</div>
@@ -53,14 +53,14 @@
 						<p><class="alignleft border" />             
 							<form action=Hola>
  						Nombre del equipo:<br>
-  						<input type="text" name="equiponombre" value="Ingrese nombre">
-  						<br>
+  						<input type="text" id="enombre" name="equiponombre" placeholder="Ingresar nombre equipo">
+  						<br><br>
   						Entrenador:<br>
-  						<input type="text" name="entrenadornombre" value="Ingrese entrenador">
-  						<br>
+  						<input type="text" id="ennombre" name="entrenadornombre" placeholder="Ingrese nombre entrenador">
+  						<br><br>
   						Color:<br>
-  						<input type="text" name="colorequipo" value="Ejemplo: Rojo">
-  						<br>
+  						<input type="text" id="cequipo" name="colorequipo" placeholder="Ingrese color representa. Ejem: Rojo">
+  						<br><br>
   						Torneo:<br>
   						<select name="Torneo">
     						<option value="volvo">Sudamericano</option>
@@ -72,11 +72,14 @@
   						</form> </p>
 						</div>
 					</div>
+
+
 					<div class="post">
 
 						<h2 class="title"><a href="#">Equipos inscritos</a></h2>
 						<div class="entry">
-							<p><class="alignleft border" /><table style="width:100%">
+							<p><class="alignleft border" />
+								<table style="width:170%">
   <tr>
     <th>Nombre Equipo</th>
     <th>Nombre Entrenador</th> 
@@ -111,12 +114,10 @@
 					<ul>
 						
 						<li>
-							<h2>Mejores equipos</h2>
+							<h2 class="title">Mejores equipos</h2>
 
 							<ul>
 
-								<li></li>
-								<li></li>
 								<li>Equipo #1</li>
 								<li>Equipo #2</li>
 								<li>Equipo #3</li>
@@ -124,28 +125,7 @@
 								<li>Equipo #5</li>
 							</ul>
 						</li>
-						<li>
-							<h2>Blogroll</h2>
-							<ul>
-								<li><a href="#">Aliquam libero</a></li>
-								<li><a href="#">Consectetuer adipiscing elit</a></li>
-								<li><a href="#">Metus aliquam pellentesque</a></li>
-								<li><a href="#">Suspendisse iaculis mauris</a></li>
-								<li><a href="#">Urnanet non molestie semper</a></li>
-								<li><a href="#">Proin gravida orci porttitor</a></li>
-							</ul>
-						</li>
-						<li>
-							<h2>Archives</h2>
-							<ul>
-								<li><a href="#">Aliquam libero</a></li>
-								<li><a href="#">Consectetuer adipiscing elit</a></li>
-								<li><a href="#">Metus aliquam pellentesque</a></li>
-								<li><a href="#">Suspendisse iaculis mauris</a></li>
-								<li><a href="#">Urnanet non molestie semper</a></li>
-								<li><a href="#">Proin gravida orci porttitor</a></li>
-							</ul>
-						</li>
+						
 					</ul>
 				</div>
 				<!-- end #sidebar -->

@@ -1,0 +1,182 @@
+nov 22, 2017 12:34:24 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+nov 22, 2017 12:34:24 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: init: Global resources are available
+nov 22, 2017 12:34:24 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:34:24 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:34:24 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: install: Installing context configuration at 'file:/C:/Users/samue/AppData/Local/Temp/context8852861556535045880.xml'
+nov 22, 2017 12:34:24 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: start: Starting web application '/ProyectoBases'
+nov 22, 2017 12:35:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:35:40 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:36:06 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:36:06 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:36:12 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:36:12 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:36:32 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:36:40 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:36:40 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:37:14 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:37:14 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:38:04 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:38:04 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:38:19 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:38:19 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:39:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:39:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: undeploy: Undeploying web application at '/Web1'
+nov 22, 2017 12:40:00 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: install: Installing context configuration at 'file:/C:/Users/samue/AppData/Local/Temp/context3245414276219424886.xml'
+nov 22, 2017 12:40:00 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: start: Starting web application '/Web1'
+nov 22, 2017 12:40:43 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:41:05 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:41:23 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:41:35 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:41:35 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:41:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:41:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:41:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:41:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:42:21 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:42:21 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:43:25 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:43:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:43:29 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:43:54 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:43:58 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:43:58 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:44:52 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:44:52 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: undeploy: Undeploying web application at '/ProyectoBases'
+nov 22, 2017 12:46:23 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:46:23 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:46:23 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: install: Installing context configuration at 'file:/C:/Users/samue/AppData/Local/Temp/context8574139230022964243.xml'
+nov 22, 2017 12:46:23 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: start: Starting web application '/ProyectoBasesF'
+nov 22, 2017 12:46:35 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:46:35 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:48:10 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:48:42 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:49:00 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:49:06 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:49:06 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:50:00 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:50:00 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:00:16 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:00:46 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:03:17 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:03:43 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:03:52 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:03:52 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:04:27 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:04:45 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:04:45 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:05:38 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:06:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:06:02 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:06:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:06:30 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:06:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:06:59 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:07:51 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:08:36 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:09:01 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:10:41 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:11:43 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:11:56 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:12:26 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:12:48 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 1:13:16 AM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:02:07 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+nov 22, 2017 12:02:07 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: init: Global resources are available
+nov 22, 2017 12:02:07 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:02:07 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:05:05 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:05:05 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:12:17 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:12:30 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'
+nov 22, 2017 12:12:30 PM org.apache.catalina.core.ApplicationContext log
+INFORMACIÓN: Manager: list: Listing contexts for virtual host 'localhost'

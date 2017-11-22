@@ -9,6 +9,16 @@ body {
 	color: #7F7F81;
 }
 
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 h1, h2, h3 {
 	margin: 0;
 	padding: 0;
@@ -35,6 +45,27 @@ p, ul, ol {
 }
 
 ul, ol {
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background-color: #6A5ACD;
+    color: white;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
 
 .button {

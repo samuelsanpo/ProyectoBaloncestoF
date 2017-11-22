@@ -1,0 +1,25 @@
+[2017-03-13 08:33:52] [info]  [ 9636] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2017-03-13 08:33:52] [info]  [ 9636] Service Tomcat7 name Apache Tomcat 7.0 Tomcat7
+[2017-03-13 08:33:52] [info]  [ 9636] Service 'Tomcat7' installed
+[2017-03-13 08:33:52] [info]  [ 9636] Commons Daemon procrun finished
+[2017-03-13 09:20:10] [info]  [10780] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2017-03-13 09:20:10] [info]  [10780] Service Tomcat7 name Apache Tomcat 7.0 Tomcat7
+[2017-03-13 09:20:10] [error] [10780] El servicio especificado ya existe.
+[2017-03-13 09:20:10] [error] [10780] Failed installing 'Tomcat7' service
+[2017-03-13 09:20:10] [error] [10780] El servicio especificado ya existe.
+[2017-03-13 09:20:10] [error] [10780] Commons Daemon procrun failed with exit value: 8 (Failed to install service)
+[2017-03-13 09:20:11] [error] [10780] El servicio especificado ya existe.
+[2017-03-13 09:21:35] [info]  [ 1820] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2017-03-13 09:21:35] [info]  [ 1820] Service Tomcat7 name Apache Tomcat 7.0 Tomcat7
+[2017-03-13 09:21:35] [error] [ 1820] El servicio especificado ya existe.
+[2017-03-13 09:21:35] [error] [ 1820] Failed installing 'Tomcat7' service
+[2017-03-13 09:21:35] [error] [ 1820] El servicio especificado ya existe.
+[2017-03-13 09:21:35] [error] [ 1820] Commons Daemon procrun failed with exit value: 8 (Failed to install service)
+[2017-03-13 09:21:35] [error] [ 1820] El servicio especificado ya existe.
+[2017-03-13 09:22:50] [info]  [ 6732] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2017-03-13 09:22:50] [info]  [ 6732] Service Tomcat7 name Apache Tomcat 7.0 Tomcat7
+[2017-03-13 09:22:50] [error] [ 6732] El servicio especificado ya existe.
+[2017-03-13 09:22:50] [error] [ 6732] Failed installing 'Tomcat7' service
+[2017-03-13 09:22:50] [error] [ 6732] El servicio especificado ya existe.
+[2017-03-13 09:22:50] [error] [ 6732] Commons Daemon procrun failed with exit value: 8 (Failed to install service)
+[2017-03-13 09:22:50] [error] [ 6732] El servicio especificado ya existe.
