@@ -711,3 +711,15 @@
 127.0.0.1 - - [22/Nov/2017:13:37:18 -0500] "GET /ProyectoBasesF/index.jsp HTTP/1.1" 200 5665
 127.0.0.1 - - [22/Nov/2017:13:37:19 -0500] "GET /ProyectoBasesF/indexTorneo.jsp HTTP/1.1" 200 2186
 127.0.0.1 - - [22/Nov/2017:13:37:19 -0500] "GET /ProyectoBasesF/styletorneo.css HTTP/1.1" 200 3948
+127.0.0.1 - - [22/Nov/2017:13:46:18 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [22/Nov/2017:13:46:18 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [22/Nov/2017:13:46:18 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [22/Nov/2017:13:46:18 -0500] "GET /manager/text/list HTTP/1.1" 200 461
+127.0.0.1 - - [22/Nov/2017:13:46:18 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [22/Nov/2017:13:46:18 -0500] "GET /ProyectoBasesF/indexEquipo.jsp HTTP/1.1" 200 3865
+127.0.0.1 - - [22/Nov/2017:13:46:18 -0500] "GET /ProyectoBasesF/styleEquipo.css HTTP/1.1" 200 6245
+127.0.0.1 - - [22/Nov/2017:13:46:18 -0500] "GET /ProyectoBasesF/images/img01.jpg HTTP/1.1" 200 358632
+127.0.0.1 - - [22/Nov/2017:13:46:18 -0500] "GET /ProyectoBasesF/images/img07.jpg HTTP/1.1" 200 356
+127.0.0.1 - - [22/Nov/2017:13:46:18 -0500] "GET /ProyectoBasesF/images/img02.jpg HTTP/1.1" 200 817
+127.0.0.1 - - [22/Nov/2017:13:46:18 -0500] "GET /ProyectoBasesF/images/img03.jpg HTTP/1.1" 200 896
+127.0.0.1 - - [22/Nov/2017:13:46:18 -0500] "GET /favicon.ico HTTP/1.1" 200 21630
