@@ -32,11 +32,41 @@
 			<li><a href="#">Jugador</a></li>
 			<li><a href="#"></a></li>
 		</ul>
+            
+            
+            <h3>Using CSS to style an HTML Form</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Nombre</label>
+    <input type="text" id="name" name="name" ">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+            
+            
+            
+            
+            
 
      <div class="field" id="searchform">
      <input type="text" id="searchterm" placeholder="Busca un jugador " />
      <button type="button" id="search"> Buscar </button>
      </div>
+            
+            
+            
             
             
 <html>
