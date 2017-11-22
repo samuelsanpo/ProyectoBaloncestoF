@@ -1,11 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>BalonBases</title>
+<title>Jugadores</title>
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
@@ -16,18 +16,20 @@
 		</div>
 		<div id="search">
 			<form method="get" action="">
-			
+				<fieldset>
+				<input type="submit" id="search-submit" value="GO" />
+				</fieldset>
 			</form>
 		</div>
 	</div>
 	<!-- end #header -->
 	<div id="menu">
 		<ul>
-			<li><a href="#">Inicio</a></li>
-			<li><a href="#">Torneos</a></li>
-			<li><a href="#">Equipos</a></li>
-			<li class="current_page_item"><a href="#">Jugador</a></li>
-			<li><a href="#"></a></li>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="indexTorneo.html">Torneos</a></li>
+			<li class="current_page_item"><a href="#">Jugadores</a></li>
+			<li><a href="#">Jugadores</a></li>
+
 		</ul>
 	</div>
 	<!-- end #menu -->
@@ -36,27 +38,80 @@
 			<div id="page-bgbtm">
 				<div id="content">
 					<div class="post">
-						<h2 class="title"><a href="#">JUGADOR</a></h2>
-						<p class="meta">Ultima Publicacion <a href="#"></a> el 23 Noviembre, 2017
-							&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Maxímo Anotador, Steph Curry</a></p>
+						<h2 class="title"><a href="#">Creador de Jugadores</a></h2>
 						<div class="entry">							
-							<p>Parrafo</p>
+							<p>En esta pestaña podrás observar jugadores participantes en todos los torneos y equipos registrados, además tendrás la oportunidad de observar a los mejores juagdores teniendo en cuenta los puntos anotados. Tambien podrás crear jugadores, correspondientes a los equipos ya establecidos.
+
+								<br>
+							Disfruta, juega y crece...</p>
 						</div>
 					</div>
 					<div class="post">
-						<h2 class="title"><a href="#">Tabla Ranking</a></h2>
-						<p class="meta">A <a href="#">B</a> C
-							&nbsp;&bull;&nbsp; <a href="#" class="comments">D</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Maxímo Anotador, Steph Curry</a></p>
+						<h2 class="title"><a href="#"> Crear un jugador nuevo </a></h2>
+					
 						<div class="entry">
-							<p><img src="images/img05.jpg" width="400" height="300" alt="" class="alignleft border" />Parrafo<a href="#">Resaltado</a>. Parrafo</p>1</p>2</p>3</p>4</p>5</p>
+						<p><class="alignleft border" />             
+							<form action=Hola>
+ 						Nombre del Jugador:<br>
+  						<input type="text" id="jnombre" name="jugadornombre" placeholder="Ingresar nombre juagdor">
+  						<br><br>
+  						Cedula:<br>
+  						<input type="text" id="jcedula" name="jugadorcedula" placeholder="Ingrese la Cedula del juagdor">
+  						<br><br>
+  						Genero:<br>
+  						<input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  						<br><br>
+  						Fecha de Nacimiento:
+  <input type="date" name="bday" max="2004-01-01" min="1977-01-01"><br>
+
+ 
+
+						
+  						Equipo:<br>
+  						<select name="Equipo">
+    						<option value="volvo">Golden Sate</option>
+   							<option value="saab">Cleveland Cavaliers</optio>
+    						<option value="fiat">Miami Heat</option>
+    						<option value="audi">LA</option>
+  						</select><br><br>
+  						<button class="button">Crear Jugador</button>
+  						</form> </p>
 						</div>
 					</div>
+
+
 					<div class="post">
-						<h2 class="title"><a href="#">Tabla Estadisticas</a></h2>
-						<p class="meta">A<a href="#">B</a> C
-							&nbsp;&bull;&nbsp; <a href="#" class="comments">D</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Maxímo Anotador, Steph Curry</a></p>
+
+						<h2 class="title"><a href="#">Jugadores Inscritos</a></h2>
 						<div class="entry">
-							<p><img src="images/img05.jpg" width="400" height="300" alt="" class="alignleft border" />Parrafo</p>1</p>2</p>3</p>4</p>5</p>
+							<p><class="alignleft border" />
+								<table style="width:170%">
+  <tr>
+    <th>Nombre Jugador</th>
+    <th>Cedula Jugador</th> 
+    <th>Genero Jugador</th>
+    <th>Equipo</th>
+  </tr>
+  <tr>
+    <td>Juan</td>
+    <td>1014.303.067</td>
+    <td>Male</td>
+    <td>Golden State</td>
+  </tr>
+  <tr>
+    <td>Cristian</td>
+    <td>1015.478.851</td>
+    <td>Male</td>
+    <td>Cleveland Cavaliers</td>
+  </tr>
+  <tr>
+    <td>Luis</td>
+    <td>1014.301.109</td>
+    <td>Male</td>
+    <td>Miami Heat</td>
+  </tr>
+</table></p>
 						</div>
 					</div>
 					<div style="clear: both;">&nbsp;</div>
@@ -64,43 +119,20 @@
 				<!-- end #content -->
 				<div id="sidebar">
 					<ul>
+						
 						<li>
-							<h2>Subtitulo</h2>
-							<p>Mini Parrafo</p>
-						</li>
-						<li>
-							<h2>Subtitulo</h2>
+							<h2 class="title">Mejores Jugadores</h2>
+
 							<ul>
-								<li><a href="#">jugador1</a></li>
-								<li><a href="#">jugador2</a></li>
-								<li><a href="#">jugador3</a></li>
-								<li><a href="#">jugador4</a></li>
-								<li><a href="#">jugador5</a></li>
-								<li><a href="#">jugador6</a></li>
+
+								<li>Jugador #1</li>
+								<li>Jugador #2</li>
+								<li>Jugador #3</li>
+								<li>Jugador #4</li>
+								<li>Jugador #5</li>
 							</ul>
 						</li>
-						<li>
-							<h2>Subtitulo</h2>
-							<ul>
-								<li><a href="#">jugador7</a></li>
-								<li><a href="#">jugador8</a></li>
-								<li><a href="#">jugador9</a></li>
-								<li><a href="#">jugador10</a></li>
-								<li><a href="#">jugador11</a></li>
-								<li><a href="#">jugador12</a></li>
-							</ul>
-						</li>
-						<li>
-							<h2>Subtitulo</h2>
-							<ul>
-								<li><a href="#">jugador13</a></li>
-								<li><a href="#">jugador14</a></li>
-								<li><a href="#">jugador15</a></li>
-								<li><a href="#">jugador16</a></li>
-								<li><a href="#">jugador17</a></li>
-								<li><a href="#">jugador18</a></li>
-							</ul>
-						</li>
+						
 					</ul>
 				</div>
 				<!-- end #sidebar -->
@@ -111,7 +143,7 @@
 	<!-- end #page -->
 </div>
 	<div id="footer">
-		<p><a href="http://www.norfipc.com/">Plantillas Gratis</a>.</p>
+		
 	</div>
 <!-- end #footer -->
 </body>

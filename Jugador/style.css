@@ -9,12 +9,21 @@ body {
 	color: #7F7F81;
 }
 
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 h1, h2, h3 {
 	margin: 0;
 	padding: 0;
-	font-weight: normal;
-	color: #FFFFFF;
-
+	font-weight: normal; 
+	color: #000000;
 }
 
 h1 {
@@ -23,6 +32,7 @@ h1 {
 
 h2 {
 	font-size: 2.4em;
+	color:#000080;
 }
 
 h3 {
@@ -35,6 +45,50 @@ p, ul, ol {
 }
 
 ul, ol {
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background-color: #6A5ACD;
+    color: white;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #008CBA;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 a {
@@ -93,7 +147,7 @@ img.aligncenter {
 #logo h1 {
 	float: left;
 	padding-left: 30px;
-	letter-spacing: -1px;	
+	letter-spacing: -1px;
 	text-shadow: #728927 -1px 1px 2px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 64px;
@@ -196,7 +250,7 @@ img.aligncenter {
 }
 
 #splash {
-	width: 2000px;
+	width: 1000px;
 	height: 260px;
 	margin: 0px auto;
 	background: url(images/img05.jpg) no-repeat left top;
