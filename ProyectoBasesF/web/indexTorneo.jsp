@@ -1,151 +1,129 @@
-<%-- 
-    Document   : index
-    Created on : 22/11/2017, 12:45:30 AM
-    Author     : samue
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<!DOCTYPE html5>
 
 <html>
 <head>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>BallonBases</title>
+<title>Equipos</title>
 <link href="styletorneo.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
 <div id="wrapper">
-	<div id="header">
-		<div id="logo">
-			<h1><a href="#">BallonBases </a></h1>			
-		</div>
-		
-	</div>
-	<!-- end #header -->
-	<div id="menu">
-		<ul>
-			<li ><a href="#">Inicio</a></li>
-			<li class="current_page_item"><a href="#">Torneos</a></li>
-			<li><a href="#">Equipos</a></li>
-			<li><a href="#">Jugador</a></li>
-			<li><a href="#"></a></li>
-		</ul>
-      
-            <br>
-    <br>
-    <br>
-    <br>
-    <br>
-   
-    <br>
-    <br>
-    
-    
-    <div id="all">
-    
-    <div id="agregarT">
-<h3>Agregar un torneo</h3>
-
-<div>
-  <form action="/action_page.php">
-    <label for="fname">Nombre torneo</label>
-    <input type="text" id="name" name="name" >
-
-    <label for="lname">Lugar </label>
-    <input type="text" id="lugar" name="lugar" >
-
-    <label for="ficture">Fixture</label>
-    <select id="fixture" name="fxcture">
-      <option value="Todos contra todos">Todos contra todos</option>
-      <option value="Elimincacion directa">Eliminación directa</option>
-    </select>
-    
-    <label for="ficture">Categoria</label>
-    <select id="Categoria" name="Categoria">
-      <option value="Masculino 20años">Masculino 20años</option>
-      <option value="Femenino 20años">Femenino 20años</option>
-      <option value="Masculino 15años">Masculino 15años</option>
-    </select>
-    <input type="submit" value="Submit">
-  </form>
+<div id="header">
+<div id="logo">
+<h1><a href="#">BallonBases</a></h1>			
 </div>
- </div>
-<br>
-<br>
-<br>
+<div id="search">
+<form method="get" action="">
+<fieldset>
+<input type="submit" id="search-submit" value="GO" />
+</fieldset>
+</form>
+</div>
+</div>
+<!-- end #header -->
+<div id="menu">
+<ul>
+<li><a href="index.jsp">Inicio</a></li>
+<li class="current_page_item"><a href="indexTorneo.jsp">Torneos</a></li>
+<li ><a href="#">Equipos</a></li>
+<li><a href="#">Jugadores</a></li>
+
+</ul>
+</div>
+<!-- end #menu -->
+<div id="page">
+<div id="page-bgtop">
+<div id="page-bgbtm">
+<div id="content">
+<div class="post">
+<h2 class="title"><a href="#">Creador de torneos</a></h2>
+<div class="entry">							
+<p>
+En esta pesta�a podras crear un nuevo torneo con tan solo introducir algunos datos y asi poder empezar a disfrutar de la competencia sana en el maravilloso mundo del baloncesto.
+</p>
+</div>
+</div>
+<div class="post">
+<h2 class="title"><a href="#"> Crear un torneo nuevo </a></h2>
+
+<div class="entry">
+<p><class= " alignleft border" />             
+<form action=Hola>
+Nombre del torneo:<br>
+<input type="text" id="tnombre" name="torneonombre" placeholder="Ingresar nombre torneo">
+<br><br>
+Lugar:<br>
+<input type="text" id="tlugar" name="torneolugar" placeholder="Ingrese el lugar ">
+<br><br>
+Fixture:<br>
+<select name="Fixture">
+<option value="1">Todos contra todos</option>
+<option value="2">Eliminacion directa</option>
+
+</select><br><br>
 
 
+Categoria:<br>
+<select name="Torneo">
+<option value="1">Masculino/20</option>
+<option value="2">Femenino/20</option>
+<option value="3">Masculino/15</option>
 
-     <div class="field" id="searchform">
-     <input type="text" id="searchterm" placeholder="Busca un jugador " />
-     <button type="button" id="search"> Buscar </button>
-     </div>
-           
+</select><br><br>
+<button class="button">Crear torneo</button>
+</form> 
+</div>
+</div>
 
-<br>
-<br>
-<br>
-<br>
 
-<table>
-  <tr>
-    <th>Nombre</th>
-    <th>Lugar</th>
+<div class="post">
+
+<h2 class="title"><a href="#">Lista de torneos</a></h2>
+<div class="entry">
+<p><class=" alignleft border" />
+
+
+<table style="width:170%">
+<tr>
+    <th>Nombre Torneo</th>
+    <th>Nombre Lugar</th> 
     <th>Fixture</th>
     <th>Categoria</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-    <td>Italy</td>
+    <td>null</td>
+    <td>null</td>
+    <td>null</td>
+    <td>null</td>
   </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-    <td>Italy</td>
-  </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-    <td>Italy</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-    <td>Italy</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-    <td>Italy</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-    <td>Italy</td>
-  </tr>
-</table>
+  
+</table> </p>
+</div>
+</div>
+<div style="clear: both;">&nbsp;</div>
+</div>
+<!-- end #content -->
+<div id="sidebar">
+<ul>
 
+<li>
+<IMG SRC="images/baloncesto1.gif">
+</li>
 
+</ul>
+</div>
+<!-- end #sidebar -->
+<div style="clear: both;">&nbsp;</div>
+</div>
+</div>
+</div>
+<!-- end #page -->
+</div>
+<div id="footer">
 
-
-    </div>
-
-
-<script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-
-
-
-	
-
-
+</div>
+<!-- end #footer -->
 </body>
 </html>
