@@ -88,7 +88,7 @@ Categoria:<br>
 <table style="width:170%">
 <tr>
     <th>Nombre Torneo</th>
-    <th>Nombre Lugar</th> 
+    <th>Lugar</th> 
     <th>Fixture</th>
     <th>Categoria</th>
   </tr>
